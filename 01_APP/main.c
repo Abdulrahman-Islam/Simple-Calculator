@@ -62,42 +62,6 @@ void main(void)
 
 
 
-//		while(1)//take operation from user
-//		{
-//			flag = 0;
-//			retKey = KPD_PressedKey_U8();
-//			if(retKey != KPD_CHECK)
-//			{
-//				switch(retKey)
-//				{
-//				case 'N':
-//					LCD_ClearDisplay_U8();
-//					break;
-//				case '+':
-//				case '-':
-//				case '*':
-//				case '/':
-//					LCD_SendChar_Vid(retKey);
-//					oper = retKey;
-//					flag = 1;
-//					break;
-//				default:
-//					break;
-//				}
-//			}
-//
-//			if((flag == 1) || (retKey == 'N'))
-//			{
-//				break;
-//			}
-//		}
-//		if(retKey == 'N')
-//		{
-//			continue;
-//		}
-
-
-
 		while(1)//take number2 from user
 		{
 			flag = 1;
